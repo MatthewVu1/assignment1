@@ -1,0 +1,42 @@
+body {
+    background-color: #cbaf87;
+  }
+
+  header{
+    background-color: lightblue;
+    grid-column: 1/-1;
+}
+
+main{
+    background-color: gray;
+    grid-column: 2/2;
+    grid-row: 2/3;
+    
+}
+
+nav{
+    background-color: greenyellow;
+    grid-column: 1/1;
+    grid-row: 2/3;
+}
+
+footer{
+    background-color: pink;
+    grid-column: 1/-1;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 0.20fr 1fr;
+    
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+li{
+    padding: 10px;
+}
